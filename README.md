@@ -10,3 +10,28 @@
 
 `php artisan make:migration create_名字_table`可以新建資料庫的資料表  
 `php artisan migrate`新建立的table更新到資料庫，`php artisan migrate:refresh`修改欄位後更新到資料庫上，只要table有更新就要記得跑這兩個指令
+
+
+## 前端的部分
+在resources>views那邊新增了courts, reservations, users 三個資料夾，還有homepage 
+詳細每個代表什麼也有寫在註解裡面了  
+* homepage.blade.php 寫首頁 
+
+**courts**
+* courts>create: 管理員新增場地的頁面 
+* courts>edit: 管理員編輯場地的頁面 
+* courts>index: 點進該場地顯示場地詳細資訊的頁面 
+* courts>show: 顯示所有場地的頁面  
+
+**reservations**  
+* reservations>create: 使用者要預約場地的畫面   
+* reservations>edit: 使用者、管理員要編輯預約紀錄的畫面   
+* reservations>index: 使用者查看自己預約紀錄的畫面   
+* reservations>show: 管理員查看所有預約紀錄的畫面  
+
+**users**  
+* users>create: 使用者註冊的畫面  
+* users>edit: 使用者編輯修改自己資料的畫面   
+* users>index: 使用者查看自己資料的頁面   
+* users>show: 管理員查看全部使用者資料的頁面  
+以上寫完可以加到routes>web.php那邊，之後輸入指定的網址就可以查看自己寫出來的東西
