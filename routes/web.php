@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/signup', function () {
+    return view('users.create');
+});
+// Route::controller(SignUpController::class)
+//     ->prefix('/sign-ups')
+//     ->name('sign-ups.')
+//     ->group(function () {
+//         Route::get('/', 'index')->name('index');
+//         // Route::post('{sign_up}/check-in', 'checkIn')->name('check_in');
+//     });
