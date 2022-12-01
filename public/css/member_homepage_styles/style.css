@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 1.25rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(0, 0, 0);
+}
+header div.logo {
+  margin-left: 0.25rem;
+  display: flex;
+  align-items: center;
+  flex: 5 1 10px;
+  justify-content: space-around;
+}
+header div.logo h1 a {
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: white;
+}
+header div.logo input {
+  background-color: #ffffff;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem 0.25rem;
+  border: none;
+  border-radius: 15px;
+  width: 50%;
+}
+header nav {
+  flex: 2 1 400px;
+}
+header nav ul {
+  margin-left: 17.5rem;
+  width: 55%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.35rem;
+}
+
+main {
+  margin-top: 3rem;
+}
+main section.courts_category {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main section.courts_category ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main section.courts_category ul li {
+  padding: 2rem 0rem;
+  width: 100%;
+}
+main section.courts_category ul li button.court_category {
+  width: 90%;
+  background-color: gray;
+  padding: 1.75rem 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+main section.courts_category ul section {
+  width: 70%;
+}
+main section.courts_category ul section div {
+  display: flex;
+  justify-content: space-around;
+}
+main section.courts_category ul section div a {
+  justify-content: space-around;
+  font-size: 1.25rem;
+  padding: 1rem 1.75rem;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}/*# sourceMappingURL=style.css.map */
