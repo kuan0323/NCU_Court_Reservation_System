@@ -10,3 +10,5 @@
 
 `php artisan make:migration create_名字_table`可以新建資料庫的資料表  
 `php artisan migrate`新建立的table更新到資料庫，`php artisan migrate:refresh`修改欄位後更新到資料庫上，只要table有更新就要記得跑這兩個指令
+
+`composer require laravel/jetstream:*`, `php artisan jetstream:install livewire` 裝了jetstrem可以用預設的登入&註冊介面
