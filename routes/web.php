@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/signup', function () {
+Route::get('/signup', function () { // 使用者註冊的畫面
     return view('users.create');
 });
 // Route::controller(SignUpController::class)
