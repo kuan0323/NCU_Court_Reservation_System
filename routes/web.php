@@ -20,6 +20,14 @@ Route::get('/', function () {
 Route::get('/signup', function () {
     return view('users.create');
 });
+
+Route::get('/member-homepage', function () {
+    return view('member_homepage');
+});
+
+Route::get('/account-infos', function () {
+    return view('account_infos');
+});
 // Route::controller(SignUpController::class)
 //     ->prefix('/sign-ups')
 //     ->name('sign-ups.')
