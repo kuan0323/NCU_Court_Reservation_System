@@ -5,7 +5,6 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 
-use App\Models\Court;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Court>
