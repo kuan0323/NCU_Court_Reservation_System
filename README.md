@@ -1,3 +1,10 @@
+## 關於Lai_Laravel9這個branch  
+是我新建的一個專案，版本是Laravel 9，所以如果要用這版的話可能要你們pull下來看看可不可以跑  
+我有把大家之前寫的東西全部複製過來了，但可能要再檢查一下有沒有漏  
+目前這個版本已經可以使用者註冊跟登入了，頁面也都有預設的，要測試的話記得改一下.env檔的DataBase名稱成跟你自己資料庫的一樣，不然連不上  
+另外User的假資料我也寫好了，可以用`php artisan migrate --seed`, `php artisan migrate` 兩個指令，資料庫那邊重整應該就可以看到有10個假的使用者資料了  
+`php artisan migrate:refresh` 是重整資料表，會把資料表上現有的內容清空，如果有新增欄位或是改欄位名字之類的才需要跑  
+
 統一用Laravel 版本 8.83.26 (php artisan --version可以查詢)  
 記得要下載xampp，手動建一個資料庫取名ncu_court_reservation_system(不要複製貼上，多一個空格很容易跳錯)  
 程式碼clone下來後依序下指令: `composer install`, `php artisan event:generate`, `php artisan key:generate`, `npm install`, `npm run dev`  
